@@ -1,4 +1,4 @@
-package liubei.java.nio.tutorial.nio_example_selector;
+package liubei.java.nio.tutorial.nio_example_selector.blocked;
 
 import java.io.IOException;
 import java.net.Socket;
