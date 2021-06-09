@@ -39,6 +39,9 @@ public class HardwareInformation {
                 hex = '0' + hex;
             }
             ret += hex.toUpperCase();
+            if(i < bytes.length - 1){
+                ret += "-";
+            }
         }
         return ret;
     }
