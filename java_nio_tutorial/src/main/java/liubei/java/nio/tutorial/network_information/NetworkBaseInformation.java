@@ -16,6 +16,7 @@ public class NetworkBaseInformation {
                 System.out.println("getIndex获取结果为：" + networkInterface.getIndex());
                 System.out.println("是否已经开启: " + networkInterface.isUp());
                 System.out.println("是否回环: " + networkInterface.isLoopback());
+                System.out.println("获得MTU的最大传输单元：" + networkInterface.getMTU());
                 System.out.println();
                 System.out.println();
             }
