@@ -11,7 +11,7 @@ public class FileChannelTutorial001 {
 
     public static void main(String[] args) {
         try {
-            FileOutputStream fileOutputStream = new FileOutputStream(new File("/Users/liubei/Program/gitworkspace/codes/java_io_tutorial/java_nio_tutorial/src/main/resources/a.txt"));
+            FileOutputStream fileOutputStream = new FileOutputStream(new File(FilePathUtil.getFilePath() + "a.txt"));
             FileChannel fileChannel = fileOutputStream.getChannel();
             ByteBuffer byteBuffer = ByteBuffer.wrap("abcde".getBytes());
             System.out.println("position: " + fileChannel.position());
